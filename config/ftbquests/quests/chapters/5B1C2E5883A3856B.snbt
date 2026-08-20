@@ -1,0 +1,1110 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "5B1C2E5883A3856B"
+	group: ""
+	icon: {
+		Count: 1
+		id: "goety_revelation:halo_of_the_end"
+		tag: {
+			Enchantments: [{
+				id: "minecraft:binding_curse"
+				lvl: 1s
+			}]
+		}
+	}
+	id: "5B1C2E5883A3856B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["089D69ADEDB5A308"]
+			icon: {
+				Count: 1
+				id: "goety:totem_of_souls"
+				tag: {
+					"Max Souls": 10000
+					Souls: 10000
+				}
+			}
+			id: "3DA10D2775705857"
+			optional: true
+			rewards: [{
+				command: "/goety soul set @p 999999999"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "7AD291071ECD2359"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5021E2752FE38F3B"
+				title: "加满灵魂能量"
+				type: "checkmark"
+			}]
+			title: "加满灵魂能量"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			description: ["仪式可以使用加速火把加速。仪式摆法请看screenshots文件夹下Goety文件夹内的图片。进行仪式前请充满灵魂能量。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 11
+					}
+				}
+				id: "goety:focus_bag"
+			}
+			id: "30BD3753EF644778"
+			rewards: [
+				{
+					id: "6B4D2504F401FF1F"
+					item: "goety:dark_altar_stone"
+					type: "item"
+				}
+				{
+					id: "1124A2F9F7DC0651"
+					item: "goety:pedestal_stone"
+					type: "item"
+				}
+				{
+					id: "3F598B24F4B64581"
+					item: "goety:arca"
+					type: "item"
+				}
+				{
+					id: "1C8A7D33D620A8EC"
+					item: "goety:soul_transfer"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1EF62ADB78335181"
+					item: "goety:cursed_cage"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1618A0B975222301"
+				title: "仪式物资领取"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26C4267C89A87AAE"]
+			description: ["末日勋章放中间，其他放四角。"]
+			id: "0BAB38B5B3CAEE3B"
+			rewards: [
+				{
+					id: "21F21DE2E8573A20"
+					item: "goety:crone_hat"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2A87A5A9F43D8056"
+					item: "goety:warlock_sash"
+					type: "item"
+				}
+				{
+					id: "66C901BE9AF36BDE"
+					item: {
+						Count: 1
+						id: "goety:malefic_helm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BEE0E72A6728CF0"
+					item: "goety_revelation:doom_medal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5232A1D8D9FCFF6E"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AB49E73C3DA2289"]
+			description: ["安息仪式。"]
+			id: "26C4267C89A87AAE"
+			tasks: [{
+				id: "19AE44F08F1C6277"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:apostle"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BAB38B5B3CAEE3B"]
+			description: [
+				"安息仪式，建议造在上层基岩。"
+				"第二个晋升之环！可以和终末之环一起佩戴哦！"
+			]
+			id: "46F15C844BD2FDF8"
+			tasks: [{
+				id: "09D5D808394E80BF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goety:apostle"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			description: ["末日勋章放中间，其他放四角。"]
+			id: "5AB49E73C3DA2289"
+			rewards: [
+				{
+					id: "52A22EBCE87B230B"
+					item: "goety:crone_hat"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2B965F7EC2D5F324"
+					item: "goety:warlock_sash"
+					type: "item"
+				}
+				{
+					id: "31A1DDBE2014C00B"
+					item: {
+						Count: 1
+						id: "goety:malefic_helm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2382FD6B303127E1"
+					item: "goety_revelation:doom_medal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "61606120DCE01CEC"
+				type: "dimension"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["26C4267C89A87AAE"]
+			id: "056307B6AD4C8724"
+			shape: "square"
+			tasks: [{
+				id: "60DC376E65B5DFE8"
+				item: "goety_revelation:ascension_halo"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46F15C844BD2FDF8"]
+			id: "084E6CC1070B3207"
+			tasks: [{
+				id: "36B96EDB64B51CAF"
+				item: "goety_revelation:the_needle"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"557C306514863AE6"
+				"099E86045DB3C980"
+			]
+			description: [
+				"魔法仪式。"
+				"四个钟放基座，内含着永恒的奥秘的物品放中间。"
+			]
+			id: "17661A0F8F537562"
+			tasks: [{
+				id: "6C7A84392CA7BBA9"
+				item: "goety_revelation:eternal_watch"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6F5F1CAD6C235348"
+				"71DF45983184A9AB"
+				"067BE5B7EEEDB80B"
+				"6C2809273A9B0F33"
+				"099E86045DB3C980"
+			]
+			id: "74D7A9E04D9C2E97"
+			tasks: [{
+				id: "6F1F3DC5C1AC14DF"
+				item: "goety_revelation:dimensional_will"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"26C4267C89A87AAE"
+				"46F15C844BD2FDF8"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 11
+					}
+				}
+				id: "goety:focus_bag"
+			}
+			id: "099E86045DB3C980"
+			rewards: [
+				{
+					command: "/goety revelation solvePuzzle @p"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "58558794D579D649"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FC3580F83F0664E"
+					item: "goety:undeath_potion"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DB131EECCBE3668"
+				title: "获取谜底物品和神秘碎片"
+				type: "checkmark"
+			}]
+			title: "获取谜底物品、神秘碎片、内含着永恒的奥秘的物品、万灵药"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"17661A0F8F537562"
+				"056307B6AD4C8724"
+				"099E86045DB3C980"
+				"084E6CC1070B3207"
+				"74D7A9E04D9C2E97"
+				"3152DA1141CB682A"
+			]
+			description: [
+				"终末仪式。搭建在末地y<5处。中间放晋升之环。物品展示框放谜底物品。神秘碎片、恶蝗蛰针、永恒怀表、维度意志放基座。然后自杀。"
+				"先别戴上去，若不小心戴上去了请清除。"
+			]
+			id: "5BC3C31D9A25D59E"
+			shape: "octagon"
+			size: 4.0d
+			tasks: [{
+				id: "431922AE49DAE429"
+				item: {
+					Count: 1
+					id: "goety_revelation:halo_of_the_end"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:binding_curse"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E3E262E92E868E1"
+				"7B3BE19C603AEE14"
+			]
+			id: "2EAF7C21D970CF12"
+			tasks: [{
+				id: "14D6EC626D65695C"
+				item: "minecraft:end_rod"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "4E3E262E92E868E1"
+			tasks: [{
+				id: "690A96D8DA870026"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "7B3BE19C603AEE14"
+			tasks: [{
+				id: "7C85B639A14F55CC"
+				item: "minecraft:popped_chorus_fruit"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7BB79EC9C9A17768"
+				"0416EA63A12A2466"
+			]
+			id: "2217469518FDCF1A"
+			tasks: [{
+				id: "61383A3C23A745A4"
+				item: "minecraft:item_frame"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "7BB79EC9C9A17768"
+			tasks: [{
+				id: "2248102F55CD9A89"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"089D69ADEDB5A308"
+				"1FA248E391616AB4"
+			]
+			id: "0416EA63A12A2466"
+			rewards: [{
+				id: "21424FC7F6FFC085"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3021346379BA7177"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["161965F395593346"]
+			id: "1FA248E391616AB4"
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "32C6E69FE9AEFC8F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AB49E73C3DA2289"]
+			id: "161965F395593346"
+			tasks: [{
+				biome: "minecraft:plains"
+				id: "338FBBF7E479093E"
+				type: "biome"
+			}]
+			x: 19.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"17661A0F8F537562"
+				"056307B6AD4C8724"
+				"099E86045DB3C980"
+				"74D7A9E04D9C2E97"
+				"084E6CC1070B3207"
+			]
+			description: ["自杀时请脱下阻碍你自杀的装备。最好放在距离仪式近的箱子里。"]
+			icon: "minecraft:skeleton_skull"
+			id: "3152DA1141CB682A"
+			rewards: [{
+				command: "/kill @p"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "1AC0CF2CBAAF3E54"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4A24C5EA94ABAD88"
+				title: "自杀"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"26C4267C89A87AAE"
+				"46F15C844BD2FDF8"
+			]
+			icon: {
+				Count: 1
+				id: "avaritia:crystal_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "485A25D7B6B260DB"
+			optional: true
+			rewards: [
+				{
+					id: "779C30449D5CF44C"
+					item: "goety:crone_hat"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1966932E3141D24C"
+					item: "goety:warlock_sash"
+					type: "item"
+				}
+				{
+					id: "2310075ACA197616"
+					item: {
+						Count: 1
+						id: "goety:malefic_helm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63F112F912E42722"
+					item: "goety_revelation:doom_medal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70964E49622D3CDD"
+				title: "再次挑战"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30BD3753EF644778"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "goety:black_book"
+				}
+			}
+			id: "71E307E3650DE815"
+			rewards: [{
+				command: "/goety research add @p all"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "6AEC105FBF01F49D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5326B937A27F638E"
+				title: "解锁所有研究"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46F15C844BD2FDF8"]
+			description: ["别丢。不用的时候放箱子。"]
+			id: "6F5F1CAD6C235348"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0483BC268C24475D"
+				item: {
+					Count: 1
+					id: "goety_revelation:revelation"
+					tag: {
+						Damage: 0
+						Unbreakable: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3623105B5297EC34"
+				item: {
+					Count: 1
+					id: "goety_revelation:revelation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "067BE5B7EEEDB80B"
+			tasks: [{
+				id: "6B4B9F9520EE4380"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "71DF45983184A9AB"
+			tasks: [{
+				id: "6DEA5ADBCE818BE9"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"32163CFD07C20AE1"
+				"17C6ADFE50EED325"
+			]
+			id: "557C306514863AE6"
+			tasks: [{
+				id: "0DEC606B0EBDB8CF"
+				item: "minecraft:clock"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "32163CFD07C20AE1"
+			tasks: [{
+				id: "3FE4F48BB0E7C9F2"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "17C6ADFE50EED325"
+			tasks: [{
+				id: "0E0356515ED062F2"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"056307B6AD4C8724"
+				"5BC3C31D9A25D59E"
+				"4C01892B0EFE3B04"
+				"0B6EEE5D32E9FA6B"
+				"71117A3C8D2FEB97"
+				"149C5701A58E190F"
+			]
+			description: ["感谢游玩。现在你可以爽了。有训练人偶可以测试伤害。给人偶放旗帜切换boss模式。把晋环和终环一起戴，然后在物品栏放根箭就可以启动天启长弓的机枪箭功能了。"]
+			id: "37FC3EEEEE2A8A6B"
+			rewards: [
+				{
+					id: "5DC7B0F8397B3F38"
+					item: {
+						Count: 1
+						id: "goety_revelation:bow_of_revelation"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:power"
+									lvl: 255
+								}
+								{
+									id: "minecraft:flame"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:infinity"
+									lvl: 1
+								}
+								{
+									id: "goety:soul_eater"
+									lvl: 255
+								}
+							]
+							RepairCost: 63
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44D1538187E8545A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+							}
+						}
+						id: "goety:nether_staff"
+						tag: {
+							"Cast Time": 0
+							Cool: 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+							cap: {
+								Items: [ ]
+								Size: 1
+							}
+							goety-dirty: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75DD6BDCDD254CDC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 1
+										id: "goety:lavaball_focus"
+										tag: {
+											Enchantments: [
+												{
+													id: "goety:potency"
+													lvl: 255
+												}
+												{
+													id: "goety:radius"
+													lvl: 255
+												}
+												{
+													id: "goety:burning"
+													lvl: 255
+												}
+											]
+											RepairCost: 7
+										}
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "goety:wither_skull_focus"
+										tag: {
+											Enchantments: [
+												{
+													id: "goety:potency"
+													lvl: 255
+												}
+												{
+													id: "goety:radius"
+													lvl: 255
+												}
+												{
+													id: "goety:burning"
+													lvl: 255
+												}
+												{
+													id: "goety:duration"
+													lvl: 255
+												}
+											]
+											RepairCost: 15
+										}
+									}
+								]
+								Size: 11
+							}
+						}
+						id: "goety:focus_bag"
+						tag: {
+							cap: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 1
+										id: "goety:lavaball_focus"
+										tag: {
+											Enchantments: [
+												{
+													id: "goety:potency"
+													lvl: 255
+												}
+												{
+													id: "goety:radius"
+													lvl: 255
+												}
+												{
+													id: "goety:burning"
+													lvl: 255
+												}
+											]
+											RepairCost: 7
+										}
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "goety:wither_skull_focus"
+										tag: {
+											Enchantments: [
+												{
+													id: "goety:potency"
+													lvl: 255
+												}
+												{
+													id: "goety:radius"
+													lvl: 255
+												}
+												{
+													id: "goety:burning"
+													lvl: 255
+												}
+												{
+													id: "goety:duration"
+													lvl: 255
+												}
+											]
+											RepairCost: 15
+										}
+									}
+								]
+								Size: 11
+							}
+							goety-dirty: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 8.0d
+			tasks: [{
+				id: "4C7611E45AC4FB3C"
+				item: "projecte:tome"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "149C5701A58E190F"
+			tasks: [{
+				id: "7180721E57B0F811"
+				item: "avaritia:infinity_chest"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0416EA63A12A2466"]
+			id: "658D7D56C4C9B689"
+			tasks: [{
+				id: "4F564B4C98FBE926"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0416EA63A12A2466"
+				"658D7D56C4C9B689"
+			]
+			id: "002978FFCCC95270"
+			rewards: [{
+				id: "64C4CF8BF6D11C29"
+				item: "minecraft:writable_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A2FA4A397510DA7"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "3B3DE1BD0599B84A"
+			tasks: [{
+				id: "1C1B11E0CE659C75"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				title: "Any #minecraft:planks"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3B3DE1BD0599B84A"
+				"002978FFCCC95270"
+			]
+			id: "0738E9DB571C16B8"
+			tasks: [{
+				id: "703DE6DAE5A0B35E"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B3DE1BD0599B84A"]
+			id: "39C8F8A5D9A4450D"
+			tasks: [{
+				id: "37BF213D4453F3FE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wooden_slabs"
+					}
+				}
+				title: "Any #minecraft:wooden_slabs"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"39C8F8A5D9A4450D"
+				"0738E9DB571C16B8"
+			]
+			id: "32D989458E90A052"
+			tasks: [{
+				id: "7F6D829136EB8122"
+				item: "minecraft:lectern"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "724818BF82B8B294"
+			tasks: [{
+				id: "03AF9AE0D92DBE69"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "0D33EA13B6FA991B"
+			tasks: [{
+				id: "606D6AB74FD22A7E"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"002978FFCCC95270"
+				"724818BF82B8B294"
+				"0D33EA13B6FA991B"
+			]
+			id: "1983DDA82DBD071A"
+			tasks: [{
+				id: "30FF59F2E637E5C8"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["099E86045DB3C980"]
+			id: "6C2809273A9B0F33"
+			tasks: [{
+				id: "14364B91EEBA6A04"
+				item: "goety:undeath_potion"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "0B6EEE5D32E9FA6B"
+			tasks: [{
+				id: "176864560542E978"
+				item: "extendedexchange:arcane_tablet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "4C01892B0EFE3B04"
+			tasks: [{
+				id: "25167EDCB2704AAC"
+				item: "more_avaritia:compressed_infinity_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["089D69ADEDB5A308"]
+			id: "71117A3C8D2FEB97"
+			tasks: [{
+				id: "59E5B0CA42F53B23"
+				item: "more_avaritia:compressed_infinity"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 16.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BC3C31D9A25D59E"]
+			icon: "minecraft:barrier"
+			id: "77C72D58E19CED67"
+			optional: true
+			rewards: [{
+				command: "/curios clear @p head"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "6424393E555F0DB6"
+				type: "command"
+			}]
+			tasks: [{
+				id: "59FB8B236A721B8B"
+				title: "清除终末之环"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["099E86045DB3C980"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 11
+					}
+				}
+				id: "goety:focus_bag"
+			}
+			id: "75038309F096FAFB"
+			optional: true
+			rewards: [
+				{
+					command: "/goety revelation solvePuzzle @p"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "1D0DB2E6917A8FFF"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2797C667E48AAE37"
+					item: "goety:undeath_potion"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "661A2A454D2567C0"
+				title: "获取谜底物品和神秘碎片"
+				type: "checkmark"
+			}]
+			title: "再次获取谜底物品、神秘碎片、内含着永恒的奥秘的物品、万灵药"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3152DA1141CB682A"]
+			icon: "minecraft:skeleton_skull"
+			id: "371C66DCC3E644BF"
+			optional: true
+			rewards: [{
+				command: "/kill @p"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "718788B6A530365E"
+				type: "command"
+			}]
+			tasks: [{
+				id: "12618535E5823314"
+				title: "再次自杀"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+	]
+	title: " 第三章：终末神明"
+}

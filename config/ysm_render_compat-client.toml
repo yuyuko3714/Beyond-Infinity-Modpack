@@ -1,0 +1,179 @@
+
+#YSM Render Compat - Client Settings
+#Adjust halo positions and rotations if effects appear at the wrong location or angle.
+#Position offsets are in pixels (1 block = 16 pixels).
+#Rotation angles are in degrees.
+#
+#Coordinate system (Minecraft world space):
+#  X = left(-) / right(+)
+#  Y = up(+) / down(-)
+#  Z = forward(+) / back(-)
+#  X-rotation = pitch (positive = look down, negative = look up)
+#  Y-rotation = yaw (positive = turn right, negative = turn left)
+#  Z-rotation = roll (positive = tilt right, negative = tilt left)
+[ascension_halo]
+	#Position & rotation for the Ascension Halo (goety_revelation:ascension_halo).
+	#The standard golden halo granted by the Ascension ability.
+	#Whether to render this halo.
+	enabled = true
+
+	[ascension_halo.position]
+		#Horizontal offset (pixels).
+		#Range: -128.0 ~ 128.0
+		xOffset = 0.0
+		#Vertical offset (pixels).
+		#Range: 0.0 ~ 128.0
+		yOffset = 30.0
+		#Forward/back offset (pixels).
+		#Range: -128.0 ~ 128.0
+		zOffset = -8.0
+
+	[ascension_halo.rotation]
+		#X-axis rotation (degrees). Positive = tilt downward, negative = tilt upward.
+		#Range: -180.0 ~ 180.0
+		xRot = -90.0
+		#Y-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		yRot = 0.0
+		#Z-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		zRot = 0.0
+
+[broken_halo]
+	#Position & rotation for the Broken Ascension Halo (goety_revelation:broken_halo).
+	#Whether to render this halo.
+	enabled = true
+
+	[broken_halo.position]
+		#Horizontal offset (pixels).
+		#Range: -128.0 ~ 128.0
+		xOffset = 0.0
+		#Vertical offset (pixels).
+		#Range: 0.0 ~ 128.0
+		yOffset = 30.0
+		#Forward/back offset (pixels).
+		#Range: -128.0 ~ 128.0
+		zOffset = -8.0
+
+	[broken_halo.rotation]
+		#X-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		xRot = -90.0
+		#Y-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		yRot = 0.0
+		#Z-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		zRot = 0.0
+
+[halo_of_the_end]
+	#Position & rotation for the Halo of the End (goety_revelation:halo_of_the_end).
+	#Whether to render this halo.
+	enabled = true
+
+	[halo_of_the_end.position]
+		#Horizontal offset (pixels).
+		#Range: -128.0 ~ 128.0
+		xOffset = 0.0
+		#Vertical offset (pixels).
+		#Range: 0.0 ~ 128.0
+		yOffset = 20.0
+		#Forward/back offset (pixels).
+		#Range: -128.0 ~ 128.0
+		zOffset = -5.0
+
+	[halo_of_the_end.rotation]
+		#X-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		xRot = 0.0
+		#Y-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		yRot = 0.0
+		#Z-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		zRot = 180.0
+
+[unholy_hat]
+	#Position & rotation for the Unholy Hat halo (goety:unholy_hat).
+	#The cursed halo from the base Goety mod.
+	#Whether to render this halo.
+	enabled = true
+
+	[unholy_hat.position]
+		#Horizontal offset (pixels).
+		#Range: -128.0 ~ 128.0
+		xOffset = 0.0
+		#Vertical offset (pixels).
+		#Range: 0.0 ~ 128.0
+		yOffset = 22.0
+		#Forward/back offset (pixels).
+		#Range: -128.0 ~ 128.0
+		zOffset = 0.0
+
+	[unholy_hat.rotation]
+		#X-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		xRot = 0.0
+		#Y-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		yRot = 0.0
+		#Z-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		zRot = 180.0
+
+[unholy_hat_halo]
+	#Position & rotation for the Unholy Hat Halo (goety:unholy_hat_halo).
+	#The halo-only variant from the base Goety mod.
+	#Whether to render this halo.
+	enabled = true
+
+	[unholy_hat_halo.position]
+		#Horizontal offset (pixels).
+		#Range: -128.0 ~ 128.0
+		xOffset = 0.0
+		#Vertical offset (pixels).
+		#Range: 0.0 ~ 128.0
+		yOffset = 22.0
+		#Forward/back offset (pixels).
+		#Range: -128.0 ~ 128.0
+		zOffset = 0.0
+
+	[unholy_hat_halo.rotation]
+		#X-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		xRot = 0.0
+		#Y-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		yRot = 0.0
+		#Z-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		zRot = 180.0
+
+[the_domain_of_fade]
+	#Position & rotation for The Domain of Fade (fantasy_ending:the_domain_of_fade).
+	#A back-slot curios item from FantasyEnding that renders a cosmic halo effect.
+	#Whether to render this effect.
+	enabled = true
+
+	[the_domain_of_fade.position]
+		#Horizontal offset (pixels).
+		#Range: -128.0 ~ 128.0
+		xOffset = 0.0
+		#Vertical offset (pixels).
+		#Range: 0.0 ~ 128.0
+		yOffset = 20.0
+		#Forward/back offset (pixels).
+		#Range: -128.0 ~ 128.0
+		zOffset = 2.0
+
+	[the_domain_of_fade.rotation]
+		#X-axis rotation (degrees). Positive = tilt downward, negative = tilt upward.
+		#Range: -180.0 ~ 180.0
+		xRot = 0.0
+		#Y-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		yRot = 0.0
+		#Z-axis rotation (degrees).
+		#Range: -180.0 ~ 180.0
+		zRot = 180.0
+

@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "549FBB72930B978E"
+	group: ""
+	icon: "tardis_refined:tardis_console"
+	id: "549FBB72930B978E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B1C2E5883A3856B"]
+			description: [
+				"前言"
+				"{@pagebreak}"
+				"关于Tardis的制造和启动流程请查看screenshots文件夹下的Tardis文件夹。"
+				""
+				"没给的东西全在转化桌里。"
+				""
+				"使用加速火把加速TARDIS珊瑚的生长。"
+				""
+				"建议管理员输入最后一页的最后一条指令。"
+				""
+				"TARDIS钥匙需要先使用右键与控制台的计算机库进行交互以绑定相应TARDIS，随后便可以在外部通过右键交互来锁定TARDIS的门。锁定时其他生物无法进入该TARDIS。"
+				""
+				"使用已经进行了同调的Classic TARDIS Key右键着陆台，即可将手刹未被拉起且燃料充足的TARDIS召唤到自身上方。"
+				"注意，以上条件是必要的，当TARDIS出现以下任一情况，将无法通过绑定的钥匙将TARDIS召唤至着陆台。"
+				"1.手刹被拉起；"
+				"2.TARDIS在召唤前已处于飞行状态；"
+				"3.TARDIS没有足够的燃料。"
+				""
+				"AR眼镜可以被装备在头部栏。装备后，当玩家驾驶TARDIS且操作面板按钮出现故障时，故障按钮的竖直方向上会频繁出现圆形图案时间领"
+				"主文字以提示玩家修复。圆形图案的黄色与红色分别代表修复重要性的轻与重。"
+				""
+				"Mallet可用于快速修复TARDIS控制面板在飞行过程中出现的按钮报错。"
+				"当控制面板出现按钮报错时，对控制面板使用Mallet以修复。"
+				"当使用Mallet并成功修复时，控制面板会出现粒子效果并发出声音。"
+				""
+				"在SHELL VIEW内仅可使用WASD控制TARDIS。"
+				""
+				"EXTERIOR FLIGHT功能可使你直接操纵TARDIS飞行。"
+				"{@pagebreak}"
+				"TARDIS 驾驶员操作手册"
+				"{@pagebreak}"
+				"控制台介绍"
+				""
+				"维度（Dimension）：更改TARDIS前往的维度（需要相应升级才能解锁）。"
+				""
+				"方向（Direction）：更改TARDIS外部的朝向（重新降落才能生效）。"
+				""
+				"门开关（Door Toggle）：左键锁定或解锁入口，右键打开或关闭入口。"
+				""
+				"快速返回（Fast Return）将TARDIS的目标位置设为上一个到达的位置。"
+				""
+				"燃料站（Fuel）：打开或关闭加油功能，鼠标停留在上面的时候会显示剩余燃料。"
+				""
+				"坐标增量器（Increment）：调整坐标随机器与XYZ按钮的变动范围，左键减少，右键增加。最初能够选择x1、x10、x100，可以通过相应升级解锁更大范围的数字（x1000、x2500、x5000）。"
+				""
+				"坐标随机器（Randomizer）：以当前所在位置为基准，随机决定目的地坐标。"
+				""
+				"空按钮（Switch）：没有任何用处的控制按钮，有可能在飞行时出现需要校准的提示，以此增加驾驶难度。"
+				""
+				"X、Y、Z：调整将要前往的XYZ坐标，左键减少，右键增加。"
+				""
+				"计算机库（Computer Bank）：打开计算机库的GUI页面，与TARDIS钥匙交互能够将其绑定到当前TARDIS。"
+				""
+				"GPS：左键查看当前位置，右键查看目标位置。"
+				""
+				"手刹（Handbrake）：强制TARDIS停留在原地，可以防止它被着陆台所召唤。如果在飞行时使用则会立即停止飞行。"
+				""
+				"油门（Throttle）：控制TARDIS的飞行速度，左键减少右键增加。"
+				"{@pagebreak}"
+				"计算机库功能"
+				""
+				"外观配置（External Shell Configuration）：更改TARDIS外壳的款式（需要相应升级才能解锁）。"
+				""
+				"控制室配置（Desktop Configuration）：可以对控制室进行重新装修（需要相应升级才能解锁）。"
+				""
+				"航点（Waypoints）：可以记录或编辑航点，更为快捷的选择常用的坐标（需要相应升级才能解锁）。"
+				""
+				"声景（Soundscape）：调整TARDIS内部的嗡嗡声。"
+				""
+				"紧急脱离（Emergency Eject）：立即被弹出到TARDIS外部，可以在内部入口丢失或想要快速出门等情况时使用，无法在飞行时使用。"
+				"{@pagebreak}"
+				"驾驶方式与注意事项"
+				""
+				"在通过xyz按钮调整好坐标后，只需要关闭手刹后拉下油门，TARDIS就将正常起飞（需要确保剩余燃料在5%以上）。"
+				""
+				"玩家可能会在飞行中听见控制台发出奇怪的声响，这代表着TARDIS在旅行过程中遭遇了湍流，需要对部件进行校准才能正常飞行。此时仅需将鼠标放置在各个按钮上进行查看，若发现按钮名称前的图标不为绿色，则需要进行点击将其变回绿色。"
+				""
+				"如果某个部件太长时间没有被校准，则它会发生损坏，直到飞行结束前都无法再次使用。如果损坏的部件过多，TARDIS就将终止旅行，并在出发地与目的地之间的某一处位置坠毁。"
+				""
+				"此时控制台将会开始冒烟，导致一段时间内都无法再次起飞（10分钟），对控制台使用冰块可以降低等待的时间。"
+				""
+				"最后，如果你在旅行途中想要提前结束旅行，只需要将油门降到最低后拉起手刹即可。"
+				""
+				"此外若是燃料耗尽或在高速旅行时拉起了手刹，旅行也将提前结束。"
+				"{@pagebreak}"
+				"附加内容"
+				"{@pagebreak}"
+				"Items"
+				""
+				"Stattenheim Remote / 斯塔滕海姆遥控器"
+				"该设备可绑定至你的TARDIS——只需进入TARDIS内部并右键点击即可完成绑定。之后可用于远程锁定或召唤你的TARDIS到任何位置。但请注意，你的手刹必须处于关闭状态，且必须已解锁降落台升级。此外，该遥控器一旦绑定便无法解除。"
+				""
+				"Superphone / 超级电话"
+				"在TARDIS内部右键点击即可绑定。使用时，它会向TARDIS及其内部所有人员发送警报，并自动输入你的坐标。在紧急情况下非常有助于脱身。"
+				""
+				"Space "
+				""
+				"太空中充满风险，你可能永远飘飞出去，甚至窒息。但不必担心！这里有解决办法——TARDIS在着陆于固体物体上时，会在其周围生成重力场和氧气层。"
+				""
+				"The TARDIS"
+				""
+				"Telepathic Control / 心灵控制"
+				"左键点击后，你会与TARDIS更加协调，建立更和谐的关系。不过话说回来，那老姑娘听起来开始有点奇怪了。"
+				"右键点击时，心灵电路会搜索脑电波等高强度心灵感应发射区域，定位各种结构，从而开启疯狂冒险之旅。"
+				"该功能需要在ARS科技树中解锁升级。"
+				""
+				"Temporal Orbit / 时间轨道"
+				"要进入某个位置周围的稳定时间轨道，你可以潜行并右键点击维度控制器。这将允许TARDIS在漩涡中“停泊”。只是小心别掉出去！"
+				"要返回，请使用快速返回开关。"
+				"该功能需要在ARS科技树中解锁升级。"
+				""
+				"Time Lock / 时间锁定"
+				"该控制会冻结TARDIS周围所有生物（作用距离可在模组配置中调整）。但请注意，这会造成显著的电力消耗！一旦解除锁定或电力耗尽，生物将恢复活动。"
+				"该功能需要在ARS科技树中解锁升级。"
+				""
+				"Emergency Exit / 紧急出口"
+				"右键点击你的TARDIS钥匙，可直接将TARDIS召唤至你身边。不过这会消耗该钥匙。"
+				""
+				"Blue Stabilizers / 蓝色稳定器"
+				"拥有此升级后，当油门处于最低档时，不再需要校准。"
+				"{@pagebreak}"
+				"管理员命令"
+				"{@pagebreak}"
+				"/tardis_refined interior tardis_refined:<uuid> <player> 把某个玩家传送到指定Tardis内部。"
+				"/tardis_refined upgrades unlock-all tardis_refined:<uuid> 解锁指定Tardis的所有功能。(请在ARS树查看所有功能)"
+			]
+			icon: "tardis_refined:tardis_console"
+			id: "5EA64C3B96871C82"
+			rewards: [
+				{
+					id: "4A9B1136197CD6D2"
+					item: "tardis_refined:root_plant"
+					type: "item"
+				}
+				{
+					id: "5E3B2B92B9F4D421"
+					item: "tardis_refined:terraformer"
+					type: "item"
+				}
+				{
+					id: "72BD6BF9C191EBDA"
+					item: "tardis_refined:tardis_console"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7E5CE3719E111048"
+					item: "tardis_refined:zeiton_lantern"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07ABD33E3D921735"
+					item: "tardis_refined:zeiton_block"
+					type: "item"
+				}
+				{
+					id: "190394A5770FB1A9"
+					item: "tardis_refined:landing_pad"
+					type: "item"
+				}
+				{
+					id: "143307C9AA7EEBA1"
+					item: "tardis_refined:glasses"
+					type: "item"
+				}
+				{
+					id: "7609272D8961267F"
+					item: "black_archive:superphone"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 4.0d
+			tasks: [{
+				id: "35523769A07D3C2F"
+				title: "种植你的塔迪斯并开始你的世界之旅行"
+				type: "checkmark"
+			}]
+			title: "种植你的塔迪斯并开始你的世界之旅"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5B1C2E5883A3856B"]
+			id: "63B9E59DB28A4C5C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "330E1F9378E21725"
+				item: {
+					Count: 1
+					id: "tardis_refined:mallet"
+					tag: {
+						Damage: 0
+						Unbreakable: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1FB3B5370A4BAEBE"
+				item: {
+					Count: 1
+					id: "tardis_refined:mallet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+	]
+	title: " 附加章节：和谐之眼"
+}

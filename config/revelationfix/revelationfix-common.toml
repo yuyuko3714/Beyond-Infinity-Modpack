@@ -1,0 +1,62 @@
+
+[Others]
+	#A list of mob effect that would never be cleared by curio abilities/bosses...
+	whitelistMobEffects = ["minecraft:night_vision"]
+
+["The Apocalypse"]
+	#A list of items(curios!) won't be banned when The Nether Apollyon in the phase "The Apocalypse".
+	whitelistItems = ["sophisticatedbackpacks:backpack", "sophisticatedbackpacks:iron_backpack", "sophisticatedbackpacks:gold_backpack", "sophisticatedbackpacks:diamond_backpack", "sophisticatedbackpacks:netherite_backpack", "enigmaticlegacy:cursed_ring"]
+	#A list of entity types(non LivingEntity) won't be removed when The Nether Apollyon in the phase "The Apocalypse".
+	whitelistEntities = ["revelationfix:fake_item_entity", "minecraft:item", "minecraft:experience_orb"]
+	#If configured as true, when a creature is killed by Apollon's barrier, Apollon will return to the state of "The Apocalypse".
+	barrierKillingMobsHealingMode = true
+	#The time required for the barrier to fully open, default 3 (seconds)
+	#Range: 3 ~ 10
+	apollyonBarrierPreparation = 3
+
+["Halo of Ascension"]
+	#All undead creatures dare not fight back against Halo Players.
+	#If it is set to false, only undead creatures with less than  GoetyMod Config:lichPowerfulFoesHealth(default 50 hearts)  of health dare not fight back against Halo Players.
+	haloUndeadSuppression = true
+	#How many times of soul energy reduction can Halo provide,Default: 4
+	#Range: 1.0 ~ 64.0
+	haloSoulReduction = 4.0
+	#How many times faster can Halo players cast spells,Default: 4
+	#Range: 1.0 ~ 64.0
+	haloSpellCastingSpeed = 4.0
+	#How many times faster can Halo players accelerate the cooldowns of focus,Default: 2
+	#Range: 1.0 ~ 64.0
+	haloSpellCooldownReduction = 2.0
+	#The maximum amount of damage a halo player can attain per hit, Default: 20.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	haloDamageCap = 20.0
+
+[Apollyon]
+	#Define the cooldown of apollyon shooting skill(in ticks).default : 1600
+	#Range: 0 ~ 32767
+	shootingCooldown = 1600
+	#Defined the permanent damage reduction value of the Apollyon.default : 25(percent)
+	#Range: 0.0 ~ 100.0
+	permanentDamageReduction = 25.0
+	#If configured as true, will enable dynamic damage reduction ability for Apollyon.
+	dynamicDamageReduction = true
+	#Defined the custom invulnerable time of apollyon (in ticks).default : 30
+	#Range: 10 ~ 32767
+	invulnerableTime = 30
+	#Defined the damage multiplier of the Apollyon in second phase.default : 2.0
+	#Range: 0.0 ~ 100.0
+	netherSecondPhaseDamageMultiplier = 2.0
+	#Defined the damage multiplier of the Apollyon in second phase.default : 4.0
+	#Range: 0.0 ~ 100.0
+	netherPhaseGenesisDamageMultiplier = 4.0
+	#Defined the armor piercing attribute base value of apollyon.default : 30(percent)
+	#Range: 0 ~ 100
+	armorPiercingAttribute = 30
+	#Defined the enchantment piercing attribute base value of apollyon.default : 30(percent)
+	#Range: 0 ~ 100
+	enchantmentPiercingAttribute = 30
+
+[Servants]
+	#If true, your servant will redirect the target of hostile creatures towards you to themselves.
+	redirectTargetToServantOption = false
+

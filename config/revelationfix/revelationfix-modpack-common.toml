@@ -1,0 +1,19 @@
+
+[Healing]
+	#If true then Apollyon 's healing system will use config data.
+	apollyonModpackMode = true
+	#The natural healing rate of Apollon (for its max health)
+	#Range: 0.0 ~ 1.0
+	apollyonSelfHealing = 0.002
+	#The arrow-hit healing rate of Apollon (for its max health)
+	#Range: 0.0 ~ 1.0
+	apollyonArrowHealing = 0.005
+	#The arrow-hit healing rate of Apollon when in Nether dimension (for its max health)
+	#Range: 0.0 ~ 1.0
+	apollyonSecondPhaseArrowHealing = 0.01
+
+["The Apocalypse"]
+	#Describe the percent of Apollyon's maximum health during "The Apocalypse"
+	#Range: 0.0 ~ 1.0
+	netherTheDoomPercent = 0.07142857142857142
+

@@ -1,0 +1,25 @@
+
+[Music]
+	#Enable new Apollyon boss music (when "Apollyon" in dimension Nether)
+	enableNewBossMusic = true
+
+[Render]
+	#Enable new Apollyon model texture (when "Apollyon" in dimension Nether)
+	enableNewNetherApollyonTexture = true
+	#Use old version Apollyon bossbar
+	useOldApollyonBossbar = false
+	#Use simple version Apollyon bossbar
+	useSimpleApollyonBossbar = false
+	#Enable Nether ScarletRain (when "Apollyon" in dimension Nether)
+	enableScarletRain = true
+	#Make Nether ScarletRain more beautiful (when "Apollyon" in dimension Nether)
+	enableDynamicScarletRain = false
+	#Enable TrailRenderers (For example, the trails of the death arrow shot by "Apollyon" in dimension Nether) )
+	enableTrailRenderer = true
+	#Display the bossbar of ApostleServant )
+	displayApostleServantBossbar = false
+	#enable special effect of the halos
+	enableSpecialHaloEffect = true
+	#enable gray screen effect when time is frozen
+	enableTimeFreezingGrayEffect = true
+

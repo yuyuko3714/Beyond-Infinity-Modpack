@@ -1,0 +1,14 @@
+
+["Auto Shoot Settings"]
+	#Ticks before auto shooting starts
+	#Range: 0 ~ 200
+	startupTicks = 0
+	#Max auto shooting duration
+	#Range: 0 ~ 10000
+	maxDurationTicks = 10000
+	#Cooldown after auto shooting ends
+	#Range: 0 ~ 10000
+	cooldownTicks = 0
+	#Required curios item IDs
+	requiredCurios = ["goety_revelation:ascension_halo", "goety_revelation:halo_of_the_end"]
+
