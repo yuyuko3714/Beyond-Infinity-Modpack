@@ -1,0 +1,33 @@
+
+["Rune Reactor"]
+	#The delay from the Totem of Roots for the server-side tick effect of Rune Reactor, Default: 4
+	#Range: 1 ~ 32767
+	rootTotemDelay = 4
+	#The delay from the Totem of Souls for the server-side tick effect of Rune Reactor, Default: 4
+	#Range: 1 ~ 32767
+	soulTotemDelay = 1
+	#The delay from the Transfer Gem for the server-side tick effect of Rune Reactor, Default: 4
+	#Range: 1 ~ 32767
+	transferCoreDelay = 1
+	#The core's soul cost per second(auto-spelling structure), Default: 2
+	#Range: 0 ~ 128
+	normalStructure_AnimationCoreCost = 2
+	#The core's soul cost per second(auto-spelling structure), Default: 2
+	#Range: 0 ~ 128
+	normalStructure_HungerCoreCost = 2
+	#The core's soul cost per second(auto-spelling structure), Default: 2
+	#Range: 0 ~ 128
+	normalStructure_MysticCoreCost = 2
+	#The core's soul cost per second(auto-spelling structure), Default: 2
+	#Range: 0 ~ 128
+	normalStructure_WindCoreCost = 2
+	#The total soul cost of auto-spelling structure, Default: 2
+	#Range: 0.0 ~ 128.0
+	runeReactor_spellingCostMultiplier = 1.0
+	#A list of focus items will be banned when Rune Reactor auto-spelling.
+	blacklistSpellNames = []
+
+["Dark Anvil"]
+	#Defined the ability of Dark Anvil to break through the upper limit of enchantment levels for items, default : 4
+	levelLimit = 4
+

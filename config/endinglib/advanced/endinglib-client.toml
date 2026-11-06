@@ -1,0 +1,5 @@
+#进阶性客户端配置
+#ZH_CN:禁用所有实体渲染
+#EN_US:Disable all entities rendering
+DisableEntityRendering = false
+

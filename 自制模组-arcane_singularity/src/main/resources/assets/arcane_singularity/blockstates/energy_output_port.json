@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "formed=false,active=false": {
+      "model": "arcane_singularity:block/energy_output_port"
+    },
+    "formed=false,active=true": {
+      "model": "arcane_singularity:block/energy_output_port_active"
+    },
+    "formed=true,active=false": {
+      "model": "arcane_singularity:block/energy_output_port"
+    },
+    "formed=true,active=true": {
+      "model": "arcane_singularity:block/energy_output_port_active"
+    }
+  }
+}

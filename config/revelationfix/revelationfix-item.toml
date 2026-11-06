@@ -1,0 +1,106 @@
+
+["Ender Keeper"]
+	#Drop chance of Broken Ender Keeper ppon conditions.
+	#Range: 0.0 ~ 1.0
+	BrokenDropChance = 0.35
+
+["Blessing Scroll"]
+	#Damage increase provided by Scroll of a Blessing for each lucky point, as percentage.
+	#Range: 0.0 ~ 32768.0
+	DamageBoost = 4.0
+	#AttackSpeed increase provided by Scroll of a Blessing for each lucky point, as percentage.
+	#Range: 0.0 ~ 32768.0
+	AttackSpeedBoost = 6.0
+	#Dodge increase provided by Scroll of a Blessing for each lucky point, as percentage.
+	#Range: 0.0 ~ 100.0
+	DodgeBoost = 2.0
+	#Max Dodge provided by Scroll of a Blessing, as percentage.
+	#Range: 0.0 ~ 100.0
+	MaxDodge = 85.0
+
+["The Needle"]
+	#The armor penetration attribute value provided by The Needle, default:0.7
+	#Range: 0.0 ~ 1.0
+	needleArmorPenetration = 0.7
+	#The enchantment piercing attribute value provided by The Needle, default:0.5
+	#Range: 0.0 ~ 1.0
+	needleEnchantmentPiercing = 0.5
+	#The minimum attribute value that the player will increase after using The Needle, default:0.0666
+	#Range: 0.0 ~ 1.0
+	needleMinimumAttributeEnhancement = 0.0666
+	#The maximum attribute value that the player will increase after using The Needle, default:0.0666
+	#Range: 0.0 ~ 1.0
+	needleMaximumAttributeEnhancement = 0.176
+	#The preciousness weight of the permanently augmented attributes provided by The Needle(default AttackDamage:0.12, MaxHealth:0.12, AttackSpeed:0.4, Resistance:3.5
+	needleAttributeWeight = [0.12, 0.12, 0.4, 3.5]
+
+["Dimensional Will"]
+	#The resistance of damage provided by Dimensional Will, as percentage.
+	#Range: 0 ~ 100
+	DamageResistance = 70
+	#The chance of escaping from death provided by Dimensional Will, as percentage.
+	#Range: 0 ~ 100
+	DeathEscape = 33
+
+["Eternal Watch"]
+	#The time(in seconds) that The Eternal Watch can freeze.
+	#Range: 0 ~ 32768
+	FreezingTime = 9
+	#The cooldown of Eternal Watch after frozen the time.
+	#Range: 0 ~ 32768
+	Cooldown = 70
+	#if true, the cooldowns of the eternal watch can can be reduced by other items
+	canCooldownsBeReduced = false
+	#The damage dealt by Eternal Watch to creatures during time stop.
+	#Range: 0.0 ~ 32768.0
+	DimensionalDamage = 10.0
+	#The chance for Eternal Watch to trigger time stop on a single creature.
+	#Range: 0 ~ 100
+	FreezeSingleChance = 6
+	#The time(in seconds) that Eternal Watch can freeze a single creature.
+	#Range: 0 ~ 32768
+	SingleFreezingTime = 5
+	#The damage dealt by Eternal Watch when ending time stop on a single creature.
+	#Range: 0.0 ~ 32768.0
+	SingleDamage = 10.0
+
+["Apocalyptium Armor"]
+
+	["Apocalyptium Armor".Chestplate]
+		#display player's apostle title when equipped the apocalyptium chestplate
+		displayTitle = false
+
+	["Apocalyptium Armor"."Spectre Darkmage Armor"]
+		#The cooldown of Spectre Darkmage set after adding a layer of magic shield(in seconds.).
+		#Range: 1 ~ 32768
+		MagicShieldCooldown = 30
+		#The soul energy cost of Spectre Darkmage set after adding a layer of magic shield.
+		#Range: 0 ~ 32768
+		MagicShieldCost = 30
+
+["Amulet of Slime"]
+	#The skill cooldown of the amulet of slime, default 2.5(in seconds).
+	#Range: 0.0 ~ 32.0
+	cooldown = 2.5
+
+["Gold Feather"]
+	#Speed multiplier when using items (relative to original state), default 4.0.
+	#Range: 1.0 ~ 32.0
+	speedMultiplier = 4.0
+
+["Soul of Obsidian"]
+	#The added value of Soul Stealing Attribute, default 5(in percent).
+	#Range: 0.0 ~ 32767.0
+	soulStealing = 10.0
+	#The added value of Soul Decrease Efficiency Attribute, default 5(in percent).
+	#Range: 0.0 ~ 32767.0
+	soulDecreaseEfficiency = 5.0
+	#Defined the increase in probability of special death loot from some creatures for this charm, default 25(in percent).
+	#Range: 0.0 ~ 100.0
+	specialLootPercentIncrease = 25.0
+
+["Eerie Axe"]
+	#Defined the maximum depth to which this tool can collect logs at once, default 32.
+	#Range: 0 ~ 128
+	maxDepth = 32
+

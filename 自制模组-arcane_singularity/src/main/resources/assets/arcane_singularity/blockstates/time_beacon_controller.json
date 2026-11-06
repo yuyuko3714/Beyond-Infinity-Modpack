@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "active=false,formed=false": {
+      "model": "arcane_singularity:block/time_beacon_controller"
+    },
+    "active=false,formed=true": {
+      "model": "arcane_singularity:block/time_beacon_controller_formed"
+    },
+    "active=true,formed=false": {
+      "model": "arcane_singularity:block/time_beacon_controller_formed"
+    },
+    "active=true,formed=true": {
+      "model": "arcane_singularity:block/time_beacon_controller_formed"
+    }
+  }
+}

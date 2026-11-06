@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GOG",
+    "OCO",
+    "GOG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "C": {
+      "item": "minecraft:command_block"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:world_core_controller",
+    "count": 1
+  }
+}

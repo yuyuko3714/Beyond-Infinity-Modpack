@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "active=false,formed=false": {
+      "model": "arcane_singularity:block/time_barrel"
+    },
+    "active=false,formed=true": {
+      "model": "arcane_singularity:block/time_barrel_formed"
+    },
+    "active=true,formed=false": {
+      "model": "arcane_singularity:block/ring_hidden"
+    },
+    "active=true,formed=true": {
+      "model": "arcane_singularity:block/ring_hidden"
+    }
+  }
+}

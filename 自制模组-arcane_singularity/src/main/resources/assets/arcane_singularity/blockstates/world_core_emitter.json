@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "formed=false": {
+      "model": "arcane_singularity:block/world_core_emitter"
+    },
+    "formed=true": {
+      "model": "arcane_singularity:block/world_core_emitter_formed"
+    }
+  }
+}

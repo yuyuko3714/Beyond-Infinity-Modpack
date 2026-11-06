@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AEA",
+    "ECE",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "arcane_singularity:arcane_shard"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:world_core",
+    "count": 1
+  }
+}

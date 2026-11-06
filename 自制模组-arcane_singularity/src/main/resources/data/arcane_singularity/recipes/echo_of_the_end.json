@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "CEC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "arcane_singularity:arcane_shard"
+    },
+    "C": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "E": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:echo_of_the_end",
+    "count": 1
+  }
+}

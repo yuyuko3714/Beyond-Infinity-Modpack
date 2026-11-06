@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "arcane_singularity:rune_bricks",
+    "arcane_singularity:chiseled_rune_bricks",
+    "arcane_singularity:arcane_crystal_block",
+    "arcane_singularity:rune_pillar",
+    "arcane_singularity:armillary_ring",
+    "arcane_singularity:laser_injector",
+    "arcane_singularity:laser_stabilizer",
+    "arcane_singularity:energy_cable",
+    "arcane_singularity:energy_output_port",
+    "arcane_singularity:energy_input_port",
+    "arcane_singularity:singularity_controller",
+    "arcane_singularity:stargate_frame",
+    "arcane_singularity:stargate_controller",
+    "arcane_singularity:arcane_lamp",
+    "arcane_singularity:time_beacon_controller",
+    "arcane_singularity:chrono_ring",
+    "arcane_singularity:time_barrel",
+    "arcane_singularity:world_core_controller",
+    "arcane_singularity:world_core_interface",
+    "arcane_singularity:world_core_emitter",
+    "arcane_singularity:world_core_apex",
+    "arcane_singularity:world_core_cable"
+  ]
+}

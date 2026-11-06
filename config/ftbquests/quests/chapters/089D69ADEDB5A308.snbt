@@ -1,0 +1,713 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "089D69ADEDB5A308"
+	group: ""
+	icon: "more_avaritia:infinity_god_sword"
+	id: "089D69ADEDB5A308"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "15C1A26F53489AD7"
+			shape: "gear"
+			tasks: [{
+				id: "782B8B2A6E10D126"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "3B2533FC4E6A9F0B"
+			tasks: [{
+				id: "0FBF8DC3A7B00959"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "5CA493FFC102F824"
+			tasks: [{
+				id: "0914BFF6BF6E73D6"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3B2533FC4E6A9F0B"
+				"15C1A26F53489AD7"
+				"5CA493FFC102F824"
+			]
+			id: "7882C001DC3F4C9A"
+			tasks: [{
+				id: "0752A49C68014B00"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "471185451723A461"
+			tasks: [{
+				id: "708D3CCB8375E9C6"
+				item: "avaritia:crystal_matrix"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3B2533FC4E6A9F0B"
+				"15C1A26F53489AD7"
+				"5CA493FFC102F824"
+				"471185451723A461"
+				"7882C001DC3F4C9A"
+			]
+			id: "3F291670B11677C7"
+			tasks: [{
+				id: "38FFAD00F230F7DE"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_sword"
+					tag: {
+						mode: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7882C001DC3F4C9A"]
+			id: "36D0D7736F1E5780"
+			tasks: [{
+				id: "11E696EAF48033AC"
+				item: "more_avaritia:compressed_infinity_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3B2533FC4E6A9F0B"
+				"5CA493FFC102F824"
+				"36D0D7736F1E5780"
+				"3F291670B11677C7"
+			]
+			id: "46B17C5FC2367E01"
+			tasks: [{
+				id: "6EC32F2CB219FB56"
+				item: "more_avaritia:infinity_sword"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36D0D7736F1E5780"]
+			id: "5880EDE0679705FA"
+			tasks: [{
+				id: "0F9B5387B1BCCAE3"
+				item: "more_avaritia:compressed_infinity"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7882C001DC3F4C9A"]
+			id: "21B30F4A0EDCDCDF"
+			tasks: [{
+				id: "46B8FC55FF23EFF0"
+				item: "avaritia:infinity_nugget"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "192922506A25E944"
+			tasks: [{
+				id: "4525E4673EBEE13D"
+				item: "avaritia:eternal_singularity"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5880EDE0679705FA"
+				"192922506A25E944"
+				"21B30F4A0EDCDCDF"
+				"15C1A26F53489AD7"
+			]
+			id: "43AB9C5AA84F687E"
+			tasks: [{
+				id: "546622CC48F7299E"
+				item: "more_avaritia:universe_heart"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"43AB9C5AA84F687E"
+				"5880EDE0679705FA"
+				"192922506A25E944"
+				"3B2533FC4E6A9F0B"
+				"46B17C5FC2367E01"
+			]
+			id: "3EF3C376F4857C6A"
+			shape: "hexagon"
+			size: 8.0d
+			tasks: [{
+				id: "4BF4EA12BC52B035"
+				item: "more_avaritia:infinity_god_sword"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"15C1A26F53489AD7"
+				"7882C001DC3F4C9A"
+				"5CA493FFC102F824"
+			]
+			id: "4BE1CB7E8F52C227"
+			tasks: [{
+				id: "6EB8563955E7C5FF"
+				item: "avaritia:infinity_helmet"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5CA493FFC102F824"
+				"7882C001DC3F4C9A"
+				"471185451723A461"
+			]
+			id: "1C4B8565F9FA18D6"
+			tasks: [{
+				id: "2B4D61764FE1AAEB"
+				item: "avaritia:infinity_chestplate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3B2533FC4E6A9F0B"
+				"5CA493FFC102F824"
+				"7882C001DC3F4C9A"
+				"15C1A26F53489AD7"
+			]
+			id: "7704E363C5B49C5B"
+			tasks: [{
+				id: "34A7D4D314AE30BD"
+				item: "avaritia:infinity_pants"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7882C001DC3F4C9A"
+				"5CA493FFC102F824"
+			]
+			id: "30288F29A02EC372"
+			tasks: [{
+				id: "493DFEF7B96032F6"
+				item: "avaritia:infinity_boots"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5CA493FFC102F824"
+				"36D0D7736F1E5780"
+				"15C1A26F53489AD7"
+				"4BE1CB7E8F52C227"
+			]
+			id: "7BAB4302438BAC04"
+			shape: "hexagon"
+			tasks: [{
+				id: "00C3AAA9382EB800"
+				item: "more_avaritia:infinity_head"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"36D0D7736F1E5780"
+				"5CA493FFC102F824"
+				"1C4B8565F9FA18D6"
+			]
+			id: "25691132CA6058BB"
+			shape: "hexagon"
+			tasks: [{
+				id: "695901D790FDA01F"
+				item: "more_avaritia:infinity_chestplate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"36D0D7736F1E5780"
+				"5CA493FFC102F824"
+				"3B2533FC4E6A9F0B"
+				"15C1A26F53489AD7"
+				"7704E363C5B49C5B"
+			]
+			id: "074AC2571F534C28"
+			shape: "hexagon"
+			tasks: [{
+				id: "1C198A2A87E9FDC9"
+				item: "more_avaritia:infinity_legs"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"5CA493FFC102F824"
+				"36D0D7736F1E5780"
+				"30288F29A02EC372"
+			]
+			id: "5924722A8B1E94BD"
+			shape: "hexagon"
+			tasks: [{
+				id: "4E8AD82916923FA1"
+				item: "more_avaritia:infinity_boots"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "20B45FB5FB282730"
+			tasks: [{
+				id: "48C4D54FCE902DF6"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "323CF3B601E44B78"
+			tasks: [{
+				id: "5F968552B76D1F13"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				title: "Any #minecraft:planks"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"20B45FB5FB282730"
+				"323CF3B601E44B78"
+			]
+			id: "6D1867A9F8873E82"
+			tasks: [{
+				id: "7AED5ABD87BD3419"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "26F47C0F39BCF5FB"
+			tasks: [{
+				id: "13C95E098399372D"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "50A69AD64E45ED2B"
+			tasks: [{
+				id: "019EF1B76BAD7FB4"
+				item: "avaritia:diamond_lattice"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "6203897B05D72171"
+			tasks: [{
+				id: "18D8E9A9FFB98CA0"
+				item: "avaritia:neutron"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3B2533FC4E6A9F0B"
+				"5CA493FFC102F824"
+			]
+			id: "15B00368F85660FE"
+			tasks: [{
+				id: "3D87CD534BD2CB71"
+				item: "avaritia:neutron_gear"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "52E4E2B19BA8BD14"
+			tasks: [{
+				id: "77E12F7B1A3026F7"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52E4E2B19BA8BD14"]
+			id: "4E34643A56C168CB"
+			tasks: [{
+				id: "6C0F3FEBAD7450C1"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "7ABCF95971942624"
+			tasks: [{
+				id: "6CD8FAE2B9F355A0"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "755FD0E8973B3699"
+			tasks: [{
+				id: "1F9F2629EBF7E394"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E34643A56C168CB"
+				"7ABCF95971942624"
+				"755FD0E8973B3699"
+			]
+			id: "013D89BB2E2D31BB"
+			tasks: [{
+				id: "1DCB45DF1330324D"
+				item: "minecraft:fire_charge"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "63EE0BBA728C3261"
+			tasks: [{
+				id: "52040B2E60EFD0BD"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "57F513D6526C4F46"
+			tasks: [{
+				id: "1D4E024BF6450F22"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["08AAEA3C1052E1D9"]
+			id: "359F4A6305B721D3"
+			tasks: [{
+				id: "14C29177D8F36FD2"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "08AAEA3C1052E1D9"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "76A9FD6AD9DEF80A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7ABCF95971942624"
+				"013D89BB2E2D31BB"
+				"63EE0BBA728C3261"
+				"57F513D6526C4F46"
+				"359F4A6305B721D3"
+			]
+			id: "6700308B1B0213B5"
+			tasks: [{
+				id: "022FB99D6C384176"
+				item: "avaritia:blaze_cube"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"26F47C0F39BCF5FB"
+				"6D1867A9F8873E82"
+				"15C1A26F53489AD7"
+				"15B00368F85660FE"
+				"6700308B1B0213B5"
+				"21B30F4A0EDCDCDF"
+				"7882C001DC3F4C9A"
+				"50A69AD64E45ED2B"
+				"3B2533FC4E6A9F0B"
+				"471185451723A461"
+				"6203897B05D72171"
+				"5CA493FFC102F824"
+			]
+			id: "5B2681B3E433799B"
+			rewards: [
+				{
+					id: "64B229DEEB8BA451"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CF51D440A1D4DC8"
+					table_id: 6287427425983148888L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				id: "1D8DFFC19E036780"
+				item: "avaritia:extreme_smithing_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5B2681B3E433799B"]
+			id: "5F0E1B958439BEE6"
+			tasks: [{
+				id: "724D2A51C4867817"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B2681B3E433799B"]
+			id: "4257E3F86A411474"
+			tasks: [{
+				id: "36135AC42471F7FA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:trim_templates"
+					}
+				}
+				title: "Any #minecraft:trim_templates"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F0E1B958439BEE6"
+				"4257E3F86A411474"
+				"471185451723A461"
+				"3B2533FC4E6A9F0B"
+				"5CA493FFC102F824"
+				"7882C001DC3F4C9A"
+				"21B30F4A0EDCDCDF"
+				"15C1A26F53489AD7"
+				"56508451E3E8A5E1"
+			]
+			id: "0D9F75F7EB10FF2E"
+			tasks: [{
+				id: "36082ED3A45CE1FE"
+				item: "avaritia:upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "56508451E3E8A5E1"
+			tasks: [{
+				id: "3AB042A7C58F59DE"
+				item: "avaritia:neutron_pile"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"15C1A26F53489AD7"
+				"21B30F4A0EDCDCDF"
+				"3B2533FC4E6A9F0B"
+				"5CA493FFC102F824"
+				"56508451E3E8A5E1"
+				"471185451723A461"
+				"7EF3E242C4EBC5BA"
+			]
+			id: "753321639E1D757C"
+			tasks: [{
+				id: "79BD8E013754B337"
+				item: "avaritia:enhancement_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "7EF3E242C4EBC5BA"
+			tasks: [{
+				id: "4CD7D7E4956A065A"
+				item: "avaritia:endest_pearl"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"753321639E1D757C"
+				"0D9F75F7EB10FF2E"
+				"35F7AA1B7BB1ADA8"
+				"6203897B05D72171"
+				"2340A912E7DE41BA"
+			]
+			id: "7A213FF7A1C2ABAA"
+			shape: "hexagon"
+			size: 4.0d
+			tasks: [{
+				id: "2BF9BF81C8FF419D"
+				item: "avaritia:infinity_chest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7882C001DC3F4C9A"]
+			id: "35F7AA1B7BB1ADA8"
+			tasks: [{
+				id: "67046DA69C6CCB27"
+				item: "avaritia:infinity"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63B240EB439CA31E"]
+			id: "15B504003048DDFF"
+			tasks: [{
+				id: "58D38B6226754D2A"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"15B00368F85660FE"
+				"15B504003048DDFF"
+			]
+			id: "2340A912E7DE41BA"
+			tasks: [{
+				id: "0765A42AF113F5D9"
+				item: "avaritia:compressed_chest"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+	]
+	title: " 第二章：超越无尽"
+}

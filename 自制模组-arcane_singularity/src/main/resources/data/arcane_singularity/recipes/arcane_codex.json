@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "GBG",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "arcane_singularity:arcane_shard"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:arcane_codex",
+    "count": 1
+  }
+}

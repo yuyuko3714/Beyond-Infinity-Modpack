@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "active=false,formed=false": {
+      "model": "arcane_singularity:block/arcane_crystal_block"
+    },
+    "active=false,formed=true": {
+      "model": "arcane_singularity:block/arcane_crystal_block"
+    },
+    "active=true,formed=false": {
+      "model": "arcane_singularity:block/ring_hidden"
+    },
+    "active=true,formed=true": {
+      "model": "arcane_singularity:block/ring_hidden"
+    }
+  }
+}

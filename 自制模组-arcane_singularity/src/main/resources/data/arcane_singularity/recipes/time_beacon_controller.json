@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "CEC",
+    "GCG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "E": {
+      "item": "arcane_singularity:arcane_crystal_block"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:time_beacon_controller",
+    "count": 1
+  }
+}

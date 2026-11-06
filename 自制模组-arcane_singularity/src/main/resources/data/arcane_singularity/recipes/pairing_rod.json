@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "GEG",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "arcane_singularity:arcane_shard"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:pairing_rod",
+    "count": 1
+  }
+}

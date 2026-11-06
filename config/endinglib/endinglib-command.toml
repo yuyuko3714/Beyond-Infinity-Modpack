@@ -1,0 +1,104 @@
+
+["Command Permission"]
+	#定义所有指令所需权限等级
+	#若<0则表示禁用了此命令
+	#/endinglib命令的权限要求
+	#Range: 0 ~ 6
+	RootCommandPermission = 0
+	#/endinglib camera命令的权限要求
+	#Range: -1 ~ 6
+	CameraPermission = 2
+	#/enderchest命令的权限要求
+	#Range: -1 ~ 6
+	EnderChestPermission = 2
+	#/enderchest <选择器>命令的权限要求
+	#Range: -1 ~ 6
+	EnderChestOtherPermission = 3
+	#/inv命令的权限要求
+	#Range: -1 ~ 6
+	InventoryPermission = 3
+	#/endinglib personal命令的权限要求
+	#Range: -1 ~ 6
+	PersonalRulePermission = 2
+	#/endinglib schedule命令的权限要求
+	#Range: -1 ~ 6
+	SchedulePermission = 2
+	#/endinglib timestop命令的权限要求
+	#Range: -1 ~ 6
+	TimestopPermission = 2
+	#/endinglib fov命令的权限要求
+	#Range: -1 ~ 6
+	FovPermission = 2
+	#/endinglib action命令的权限要求
+	#Range: -1 ~ 6
+	ActionPermission = 2
+	#/endinglib rotate命令的权限要求
+	#Range: -1 ~ 6
+	RotatePermission = 2
+	#/endinglib motion命令的权限要求
+	#Range: -1 ~ 6
+	MotionPermission = 2
+	#/endinglib fillEntity命令的权限要求
+	#Range: -1 ~ 6
+	FillEntityPermission = 2
+	#/endinglib kick命令的权限要求
+	#Range: -1 ~ 6
+	KickPermission = 2
+	#/endinglib pose命令的权限要求
+	#Range: -1 ~ 6
+	PosePermission = 2
+	#/endinglib cooldown命令的权限要求
+	#Range: -1 ~ 6
+	CooldownPermission = 2
+	#/endinglib input命令的权限要求
+	#Range: -1 ~ 6
+	InputPermission = 2
+	#/endinglib hotbar命令的权限要求
+	#Range: -1 ~ 6
+	HotbarPermission = 2
+	#/endinglib target命令的权限要求
+	#Range: -1 ~ 6
+	TargetPermission = 2
+	#/endinglib animate命令的权限要求
+	#Range: -1 ~ 6
+	AnimatePermission = 2
+	#/endinglib testfor命令的权限要求
+	#Range: -1 ~ 6
+	TestforPermission = 2
+	#/endinglib sound命令的权限要求
+	#Range: -1 ~ 6
+	SoundPermission = 2
+	#/endinglib shader命令的权限要求
+	#Range: -1 ~ 6
+	ShaderPermission = 2
+	#/endinglib freeze命令的权限要求
+	#Range: -1 ~ 6
+	FreezePermission = 2
+	#/endinglib data命令的权限要求
+	#Range: -1 ~ 6
+	DataPermission = 2
+	#/endinglib mobControl命令的权限要求
+	#Range: -1 ~ 6
+	MobControlPermission = 2
+	#/endinglib hack runFunction命令的权限要求
+	#Range: -1 ~ 6
+	RunFunctionPermission = 2
+	#/endinglib heal命令的权限要求
+	#Range: -1 ~ 6
+	HealPermission = 2
+	#/endinglib entityAnimate命令的权限要求
+	#Range: -1 ~ 6
+	EntityAnimatePermission = 2
+	#/endinglib display命令的权限要求
+	#Range: -1 ~ 6
+	DisplayPermission = 2
+	#/endinglib abilities命令的权限要求
+	#Range: -1 ~ 6
+	AbilitiesPermission = 2
+	#/endinglib dynamicKeys命令的权限要求
+	#Range: -1 ~ 6
+	DynamicKeysPermission = 2
+	#/endinglib overlay命令的权限要求
+	#Range: -1 ~ 6
+	OverlayPermission = 2
+

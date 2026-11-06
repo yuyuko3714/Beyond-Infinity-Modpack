@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R",
+    "R",
+    "R"
+  ],
+  "key": {
+    "R": {
+      "item": "arcane_singularity:rune_bricks"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:rune_pillar",
+    "count": 3
+  }
+}

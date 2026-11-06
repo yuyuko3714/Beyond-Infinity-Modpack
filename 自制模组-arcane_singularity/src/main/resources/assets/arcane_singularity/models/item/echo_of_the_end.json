@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arcane_singularity:item/echo_of_the_end"
+  }
+}

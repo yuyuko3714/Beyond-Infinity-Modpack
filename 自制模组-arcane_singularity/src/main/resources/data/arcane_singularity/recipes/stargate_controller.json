@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "GEG",
+    " G "
+  ],
+  "key": {
+    "C": {
+      "item": "arcane_singularity:arcane_crystal_block"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:stargate_controller",
+    "count": 1
+  }
+}

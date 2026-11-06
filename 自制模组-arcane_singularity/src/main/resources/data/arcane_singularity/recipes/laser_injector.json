@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "GRG",
+    " A "
+  ],
+  "key": {
+    "C": {
+      "item": "arcane_singularity:arcane_crystal_block"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:laser_injector",
+    "count": 1
+  }
+}

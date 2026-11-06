@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arcane_singularity:rune_bricks"
+    },
+    {
+      "item": "arcane_singularity:rune_bricks"
+    },
+    {
+      "item": "arcane_singularity:arcane_shard"
+    }
+  ],
+  "result": {
+    "item": "arcane_singularity:chiseled_rune_bricks",
+    "count": 2
+  }
+}

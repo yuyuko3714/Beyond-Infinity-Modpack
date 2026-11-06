@@ -1,0 +1,5 @@
+#进阶性通用配置
+#ZH_CN:禁用所有非玩家实体/方块实体更新
+#EN_US:Cancel all non-player-entities/block-entities updating
+DisableEntityUpdate = false
+

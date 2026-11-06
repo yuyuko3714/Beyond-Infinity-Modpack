@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "active=false,formed=false": {
+      "model": "arcane_singularity:block/world_core_interface"
+    },
+    "active=true,formed=false": {
+      "model": "arcane_singularity:block/world_core_interface_formed"
+    },
+    "active=false,formed=true": {
+      "model": "arcane_singularity:block/world_core_interface_formed"
+    },
+    "active=true,formed=true": {
+      "model": "arcane_singularity:block/world_core_interface_formed"
+    }
+  }
+}

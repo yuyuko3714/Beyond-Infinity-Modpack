@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GAG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "A": {
+      "item": "arcane_singularity:arcane_shard"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:armillary_ring",
+    "count": 4
+  }
+}

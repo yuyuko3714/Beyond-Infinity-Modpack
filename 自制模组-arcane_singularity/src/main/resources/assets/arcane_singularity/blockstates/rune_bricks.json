@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "formed=false": {
+      "model": "arcane_singularity:block/rune_bricks"
+    },
+    "formed=true": {
+      "model": "arcane_singularity:block/rune_bricks"
+    }
+  }
+}

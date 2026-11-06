@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "arcane_singularity:arcane_shard"
+    }
+  ],
+  "result": {
+    "item": "arcane_singularity:arcane_lamp",
+    "count": 2
+  }
+}

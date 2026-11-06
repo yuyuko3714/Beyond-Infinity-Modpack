@@ -1,0 +1,7 @@
+
+[client]
+	#Should the client download and cache skins?
+	shouldCacheSkins = false
+	#Should the time vortex render?
+	shouldTimeVortexRender = true
+

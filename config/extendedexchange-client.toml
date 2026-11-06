@@ -1,0 +1,13 @@
+
+[General]
+	#Where (or whether) to show the player's personal EMC
+	#Allowed Values: DISABLED, TOP_LEFT, TOP_RIGHT
+	screen_position = "DISABLED"
+	#If true, on-screen personal EMC is only shown when holding an item from ProjectE or ExtendedeXchange
+	only_show_emc_when_holding_mod_item = false
+	#The search type to use in the Stone Table
+	#Allowed Values: NORMAL, AUTOSELECTED, NORMAL_JEI_SYNC, AUTOSELECTED_JEI_SYNC
+	search_type = "NORMAL"
+	#If true, use our own custom EMC formatting. If false, use ProjectE's EMC formatter.
+	overrideEMCFormatter = true
+

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arcane_singularity:arcane_shard"
+    },
+    {
+      "item": "arcane_singularity:arcane_shard"
+    },
+    {
+      "item": "arcane_singularity:arcane_shard"
+    },
+    {
+      "item": "arcane_singularity:arcane_shard"
+    }
+  ],
+  "result": {
+    "item": "arcane_singularity:arcane_crystal_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "arcane_singularity:block/energy_cable_core"
+      }
+    },
+    {
+      "when": {
+        "overloaded": "true"
+      },
+      "apply": {
+        "model": "arcane_singularity:block/energy_cable_core_hot"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "arcane_singularity:block/energy_cable_arm_north"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "arcane_singularity:block/energy_cable_arm_east"
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "arcane_singularity:block/energy_cable_arm_south"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "arcane_singularity:block/energy_cable_arm_west"
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "arcane_singularity:block/energy_cable_arm_up"
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "arcane_singularity:block/energy_cable_arm_down"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "GAG",
+    "IGI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "A": {
+      "item": "arcane_singularity:arcane_shard"
+    }
+  },
+  "result": {
+    "item": "arcane_singularity:time_barrel",
+    "count": 4
+  }
+}

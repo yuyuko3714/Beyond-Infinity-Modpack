@@ -1,0 +1,72 @@
+{
+	default_autoclaim_rewards: "disabled"
+	default_consume_items: false
+	default_quest_disable_jei: false
+	default_quest_shape: "circle"
+	default_reward_team: false
+	detection_delay: 20
+	disable_gui: false
+	drop_book_on_death: false
+	drop_loot_crates: false
+	emergency_items: [
+		{
+			Count: 1
+			id: "vanillaaiots:netherite_aiot"
+			tag: {
+				Damage: 0
+				Enchantments: [
+					{
+						id: "minecraft:efficiency"
+						lvl: 10s
+					}
+					{
+						id: "minecraft:looting"
+						lvl: 10s
+					}
+					{
+						id: "minecraft:sharpness"
+						lvl: 255
+					}
+				]
+				RepairCost: 1
+				Unbreakable: 1
+			}
+		}
+		{
+			Count: 1
+			id: "vanillaaiots:netherite_aiot"
+			tag: {
+				Damage: 0
+				Enchantments: [
+					{
+						id: "minecraft:silk_touch"
+						lvl: 1s
+					}
+					{
+						id: "minecraft:efficiency"
+						lvl: 10
+					}
+				]
+				RepairCost: 3
+				Unbreakable: 1
+			}
+		}
+		{ Count: 1, id: "goety:arca" }
+		{ Count: 1, id: "extendedexchange:arcane_tablet" }
+	]
+	emergency_items_cooldown: 0
+	grid_scale: 0.5d
+	hide_excluded_quests: false
+	icon: "more_avaritia:infinity_god_sword"
+	lock_message: ""
+	loot_crate_no_drop: {
+		boss: 0
+		monster: 600
+		passive: 4000
+	}
+	pause_game: false
+	progression_mode: "linear"
+	show_lock_icons: false
+	title: "Beyond Infinity"
+	version: 13
+}
